@@ -38,7 +38,41 @@
 #myUL li a:hover:not(.header) {
   background-color: #eee;
 }
+body {font-family: Arial, Helvetica, sans-serif;}
 
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
 
 
 
@@ -8787,6 +8821,27 @@ BY <br>
 </center>
 </ul>
 
+<div class="callout">
+  <div class="callout-header">Version 2.0</div>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  <div class="callout-container">
+    <p>Version 2.0 of DTR Location by Aritra is now availble. I do have a system for HT Consumers address/contact number which you can access from <a href="https://aridev009.github.io/htconsumer/">here</a>. Some of the sources are still not available in it but the number of locations have increased from the Version 1.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 <script>
 
 
